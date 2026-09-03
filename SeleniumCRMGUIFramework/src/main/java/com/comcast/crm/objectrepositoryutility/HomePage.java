@@ -34,7 +34,11 @@ public class HomePage {
 
 	@FindBy(linkText = "More")
 	private WebElement moreLink;
-
+	
+	@FindBy(linkText = "Calendar")
+	private WebElement calendarLink;
+	
+	
 	@FindBy(xpath = "//img[contains(@src,'user')]")
 	private WebElement adminImg;
 
