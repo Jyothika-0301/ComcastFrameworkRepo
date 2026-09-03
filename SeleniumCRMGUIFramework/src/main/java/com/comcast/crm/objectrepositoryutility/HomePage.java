@@ -36,7 +36,7 @@ public class HomePage {
 	private WebElement moreLink;
 	
 	@FindBy(linkText = "Calendar")
-	private WebElement calendarLink;
+	private WebElement calendarLinkin;
 	
 	
 	@FindBy(xpath = "//img[contains(@src,'user')]")
@@ -51,6 +51,12 @@ public class HomePage {
 	public WebElement getOrglink() {
 		return orglink;
 	}
+
+	public WebElement getCalendarLinkin() {
+		return calendarLinkin;
+	}
+
+	
 
 	public WebElement getContactLink() {
 		return contactLink;
